@@ -138,7 +138,7 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Environment :: Console',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3.7',
+        #'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
@@ -149,8 +149,9 @@ setup(
         'License :: Public Domain',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.7',
-
+    #python_requires='>=3.7',
+    python_requires='>=3.8',
+    
     cmdclass={'build_lazy_extractors': build_lazy_extractors},
     **params
 )
