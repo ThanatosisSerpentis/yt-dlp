@@ -13,7 +13,7 @@ except ImportError:
 from distutils.spawn import spawn
 
 
-def read(fname):
+def read(fname): #TODO: dämliche Abkürzung
     with open(fname, encoding='utf-8') as f:
         return f.read()
 
