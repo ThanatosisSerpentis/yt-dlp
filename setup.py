@@ -149,7 +149,7 @@ setup(
         'License :: Public Domain',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.7',
 
     cmdclass={'build_lazy_extractors': build_lazy_extractors},
     **params
